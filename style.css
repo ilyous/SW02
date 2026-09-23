@@ -27,3 +27,15 @@ section img {
 section ul {
     padding-left: 100px;
 }
+
+section a:visited {
+    color: purple;
+}
+
+section a:hover{
+    color: red;
+}
+
+section a {
+    padding-left: 50px;
+}
