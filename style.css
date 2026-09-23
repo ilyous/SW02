@@ -39,3 +39,50 @@ section a:hover{
 section a {
     padding-left: 50px;
 }
+
+section table {
+    border-collapse: collapse;
+    width: 400px;
+    margin: 50px;
+}
+
+section tr {
+    border: 1px;
+    border-style: solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(2) {
+background-color: #F2F2F2;
+}
+
+tr:nth-child(4) {
+background-color: #F2F2F2;
+}
+
+tr:nth-child(6) {
+background-color: #F2F2F2;
+}
+
+tr:nth-child(8) {
+background-color: #F2F2F2;
+}
+
+tr:nth-child(10) {
+background-color: #F2F2F2;
+}
+
+section#liste td:hover {
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+section th {
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #FF715B;
+    color: white;
+}
