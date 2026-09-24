@@ -86,3 +86,80 @@ section th {
     background-color: #FF715B;
     color: white;
 }
+
+section#message h1 {
+    text-align: center;
+}
+
+section#message form {
+    box-sizing: border-box;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section#message label {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4c5454;
+    font-size: 18px;
+}
+
+section#message select {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4c5454;
+    font-size: 18px;
+}
+
+section#message input {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4c5454;
+    font-size: 18px;
+}
+
+section#message select {
+    box-sizing: border-box;
+    background-color: #FF715B;
+    border: 1px;
+    border-style: solid #4c5454;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section#message input {
+    box-sizing: border-box;
+    background-color: #FF715B;
+    border: 1px;
+    border-style: solid #4c5454;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section#message label[type=submit] {
+    margin-top: 30px;
+}
+
+section#message input[type=submit] {
+    margin-top: 30px;
+    background-color: #FF715B;
+}
+

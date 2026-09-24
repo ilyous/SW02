@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="utf-8" />
+        <title>Présentation des journaux lumineux</title>
+    </head>
+
+    <body>
+        <section id="message">
+            <h1>Envoi d'un message</h1>
+            <form action="rest.php" method="post">
+                <label for="afficheur">Sélectionner une classe : </label>
+                <select id="afficheur" name="afficheur">
+                    <option value="CPA">CP A</option>
+                    <option value="CPB">CP B</option>
+                    <option value="CE1A">CE1 A</option>
+                    <option value="CE1B">CE1 B</option>
+                    <option value="CE2A">CE2 A</option>
+                    <option value="CE2B">CE2 B</option>
+                    <option value="CM1A">CM1 A</option>
+                    <option value="CM1B">CM1 B</option>
+                    <option value="CM2A">CM2 A</option>
+                    <option value="CM2B">CM2 B</option>
+                </select>
+                <label for="message">Message à envoyer : </label>
+                <input type="text" id="message" name="message">
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </body>
+</html>
