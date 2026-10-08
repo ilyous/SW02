@@ -11,8 +11,8 @@
             <h1>Envoi d'un message</h1>
             <form action="rest.php" method="post">
                 <label for="afficheur">Sélectionner une classe : </label>
-                <select id="afficheur" name="afficheur">
-                    <option value="CPA">CP A</option>
+                <select id="afficheur" name="ip_journal">
+                    <option value="172.20.21.158">CP A</option>
                     <option value="CPB">CP B</option>
                     <option value="CE1A">CE1 A</option>
                     <option value="CE1B">CE1 B</option>
@@ -23,9 +23,37 @@
                     <option value="CM2A">CM2 A</option>
                     <option value="CM2B">CM2 B</option>
                 </select>
+                <label for="apparition">Choisir l'effet d'apparition : </label>
+                <select id="select-effetapparition" name="effetapparition">
+                    <option value="FA">Immediate</option>
+                    <option value="FB">Xopen</option>
+                    <option value="FC">Curtain UP</option>
+                    <option value="FD">Curtain Down</option>
+                </select>
+                <label for="affichage">Choisir l'effet d'affichage : </label>
+                <select id="select-effetaffichage" name="effetaffichage">
+                    <option value="MA">Normal</option>
+                    <option value="MB">Clignotant</option>
+                    <option value="MC">Musique prédéfinie 1</option>
+                    <option value="MD">Musique prédéfinie 2</option>
+                </select>
+                <label for="duree">Choisir la durée de l'affichage : </label>
+                <select id="select-dureeaffichage" name="dureeaffichage">
+                    <option value="WA">0,5s</option>
+                    <option value="WB">1s</option>
+                    <option value="WC">2s</option>
+                    <option value="WD">3s</option>
+                </select>
+                <label for="disparition">Choisir l'effet de disparition : </label>
+                <select id="select-effetdisparition" name="effetdisparition">
+                    <option value="FA">Immediate</option>
+                    <option value="FB">Xopen</option>
+                    <option value="FC">Curtain UP</option>
+                    <option value="FD">Curtain Down</option>
+                </select>
                 <label for="message">Message à envoyer : </label>
-                <input type="text" id="message" name="message">
-                <input type="submit" value="Envoyer">
+                <input type="text" id="message" name="texte">
+                <input type="submit" value="Envoyer" name="submit_SW06">
             </form>
         </section>
     </body>
